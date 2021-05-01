@@ -33,7 +33,7 @@ tw_asecret = ''
 
 # Email Settings
 send_email_alerts = False
-email_sender = ''  # Your email address
+email_sender = ''  # austin.ciortan@gmail.com
 email_receivers = ['', '']  # Receivers, can be multiple
 email_subject = 'Trade Alert!'
 
@@ -41,3 +41,5 @@ email_port = 465  # SMTP SSL Port (ex. 465)
 email_host = ''  # SMTP host (ex. smtp.gmail.com)
 email_user = ''  # SMTP Login credentials
 email_password = ''  # SMTP Login credentials
+source TradingView-Webhook-Bot/bin/activate && cd TradingView-Webhook-Bot
+

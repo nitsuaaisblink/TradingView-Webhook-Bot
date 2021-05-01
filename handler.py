@@ -73,3 +73,5 @@ def send_alert(data):
                 server.quit()
         except Exception as e:
             print('[X] Email Error:\n>', e)
+source TradingView-Webhook-Bot/bin/activate && cd TradingView-Webhook-Bot
+
